@@ -1,13 +1,6 @@
-# Purpose
+# 🚫 This repository has been archived 🚫
 
-This Python code is an example implementation of the IPv4 discovery used at ifm electronic gmbh
-It is not feature complete and not production ready. Use it at your own risk
-
-# Usage Example
-```
- sudo python discovery.py -i enx000acd2707f4 -a 192.168.0.67
-```
-enx000acd2707f4 is the network interface the camera is attached to, which can be displayed by ifconfig and usually is eth0
+This repository is no longer maintained, we keep it as a read only repository for the sake of documentation. The IPv4 discovery is now part of the [ifm3d](https://github.com/ifm/ifm3d/blob/o3r/main/modules/tools/src/libifm3d_tools/discover_app.cpp) library.
 
 # License
 
